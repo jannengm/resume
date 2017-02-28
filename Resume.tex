@@ -1,0 +1,131 @@
+\documentclass{article}
+
+\usepackage{scrextend}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+
+%Set page margins
+\usepackage[
+  top=0.5in,
+  bottom=0.5in,
+  left=0.5in,
+  right=0.5in,
+  includehead
+]{geometry}
+
+%Changes vertical spacing around section headers
+\titlespacing\section{0pt}{6pt plus 4pt minus 2pt}{2pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{0pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{0pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+%Adds horizontal line to section headers
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+
+%Removes indentation from all paragraphs
+\setlength{\parindent}{0em}
+
+%Removes section number of section headers
+\makeatletter
+\renewcommand{\@seccntformat}[1]{}
+\makeatother
+
+%Create page header
+\pagestyle{fancy}
+\lhead{\LARGE \textbf{Mark Jannenga}}
+\rhead{Spring Lake, MI 49456 \\ jannengm@mail.gvsu.edu \\ (616)510-7880 \\ github.com/jannengm}
+\renewcommand{\headrulewidth}{0.8pt}
+
+\begin{document}
+	\pagenumbering{gobble}		%Remove page numbers
+	\hfill				%Blank line after header
+
+	%Objective Section
+	\section*{Objective}
+	\begin{addmargin}[1em]{0em}
+		To obtain a software development internship for the summer of 2017
+	\end{addmargin}
+
+	%Eduction Section
+	\section*{Education}
+
+		\subsubsection{Grand Valley State University -- Allendale, MI -- Sept 2014 - Aug 2017 (Expected)}
+			\begin{addmargin}[1em]{0em}
+
+				B.S. in Computer Science
+
+				Minor: Mathematics
+
+				GPA: 3.903
+
+				Honors: Dean's List -- Fall 2014 - Present
+			\end{addmargin}
+
+	%Skills Section
+	\section*{Skills}
+	\begin{addmargin}[1em]{0em}
+		\textbf{Languages:} C, C++, Java, SQL, HTML, CSS, MIPS Assembly, Python, R
+
+		\textbf{Software:} Git, Eclipse, IntelliJ, CLion, PyCharm, Visual Studio, Atom, Linux, Windows
+	\end{addmargin}
+
+	%Work Experience Section
+	\section*{Work Experience}
+
+		\subsubsection{Lab Assistant -- Grand Valley State University -- Allendale, MI -- Sept 2016 - Dec 2016}
+			\begin{addmargin}[1em]{0em}
+				Attended lab sections of a Computer Architecture class (CIS 451) at Grand Valley to assist students with labs and to answer questions. Graded papers and entered grades into Blackboard.
+			\end{addmargin}
+
+		\subsubsection{Delivery Driver -- Jet’s Pizza -- Grand Haven, MI -- May 2015 - Aug 2015}
+			\begin{addmargin}[1em]{0em}
+				Answered phones and took customer orders. Delivered pizzas to customers and handled cash and credit transactions. Cleaned store back.
+			\end{addmargin}
+
+		\subsubsection{Data Entry Clerk -- Medallion Instrumentation Systems -- Spring Lake, MI -- May 2014 - Jan 2015}
+			\begin{addmargin}[1em]{0em}
+				Entered data regarding warranty claims in Microsoft Access and communicated findings with customers. Created new Visual Basic scripts and Microsoft Access queries to streamline and automate aspects of the data entry process.
+			\end{addmargin}
+
+		\subsubsection{Computer Repair Technician -- Intellect Computer Systems -- Spring Lake, MI -- Aug 2013}
+			\begin{addmargin}[1em]{0em}
+				Performed troubleshooting and repairs on Windows computers, including replacement of hardware, backup and restoration of data, and reformatting of hard drives. Disassembled and recycled outdated computers.
+			\end{addmargin}
+
+		\subsubsection{Delivery Driver -- Jimmy John's -- Ann Arbor, MI -- March 2011 - May 2013}
+			\begin{addmargin}[1em]{0em}
+				Answered phones and took customer orders. Delivered sandwiches to customers and handled cash and credit transactions. Cleaned store back and closed the store at night.
+			\end{addmargin}
+
+		\subsubsection{Cashier/Stocker -- Orchard Market -- Spring Lake, MI -- Dec 2006 - Aug 2011}
+			\begin{addmargin}[1em]{0em}
+				Checked out customers and handled cash and credit transactions. Opened the store in the morning, cleaned the floors, and stocked shelves.
+			\end{addmargin}
+
+	%Selected Courses Section
+	\section*{Courses}
+		\begin{addmargin}[1em]{0em}
+			Computer Science I and II, Discrete Structures I and II, Computer Organization, Data Structures and Algorithms, Structure of Programming Languages, Intro to Software Engineering, Computer Architecture, Operating Systems Concepts, Database, System Programming, Data Communications, Data Mining, Artificial Intelligence
+		\end{addmargin}
+
+	%Selected Projects Section
+	\section*{Projects}
+		\subsubsection{TCP Encrypted Chat Program}
+			\begin{addmargin}[1em]{0em}
+				Created a TCP chat server and client in C that utilized the OpenSSL library to perform both RSA and EVP encryption.
+			\end{addmargin}
+
+		\subsubsection{Chess Game}
+			\begin{addmargin}[1em]{0em}
+				Collaborated with two other students on a term long project with multiple releases. Created a fully functional chess game in Java complete with a GUI and an AI.
+			\end{addmargin}
+
+		\subsubsection{File System Utility}
+			\begin{addmargin}[1em]{0em}
+				Created a file system utility similar to the Linux disk usage (du) utility in C++ using Linux system calls.
+			\end{addmargin}
+
+	%General Skills section
+	% \section*{General Skills}
+
+\end{document}

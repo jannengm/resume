@@ -1,0 +1,54 @@
+\documentclass{article}
+
+\usepackage{scrextend}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+
+%Set page margins
+\usepackage[
+  top=1in,
+  bottom=1in,
+  left=1in,
+  right=1in,
+  includehead
+]{geometry}
+
+%Removes indentation from all paragraphs
+\setlength{\parindent}{0em}
+
+%Create page header
+\pagestyle{fancy}
+\lhead{\LARGE \textbf{Mark Jannenga}}
+\rhead{Spring Lake, MI 49456 \\ jannengm@mail.gvsu.edu \\ (616)510-7880 \\ github.com/jannengm}
+% \renewcommand{\headrulewidth}{0.8pt}
+
+\begin{document}
+	\pagenumbering{gobble}		%Remoove page numbers
+	\hfill										%Blank line after header
+
+	\hfill
+
+	%Company address
+	Auto-Owners Insurance\\
+	6101 Anacapri Blvd.\\
+	Lansing, MI 48917\\
+
+	%Salutation
+	Dear Hiring Manager:\\
+
+	%Intro paragraph - position, reason for interest, why I'm good for the job
+	This letter is in regards to my interest to apply for the Java Software
+	Developer internship position that is posted on your career page. I had the
+	pleasure of speaking with one of your representatives, Darlene Miller, at
+	Grand Valley's career fair in Grand Rapids that you generously sponsored
+	last month.
+
+	Sincerely,
+
+	\includegraphics{signature.png}
+
+	Mark Jannenga
+
+
+\end{document}
