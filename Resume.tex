@@ -14,7 +14,7 @@
 ]{geometry}
 
 %Changes vertical spacing around section headers
-\titlespacing\section{0pt}{6pt plus 4pt minus 2pt}{2pt plus 2pt minus 2pt}
+\titlespacing\section{0pt}{6pt plus 4pt minus 2pt}{2pt plus 2pt minus 0pt}
 \titlespacing\subsection{0pt}{0pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 \titlespacing\subsubsection{0pt}{0pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 
@@ -33,7 +33,7 @@
 %Create page header
 \pagestyle{fancy}
 \lhead{\LARGE \textbf{Mark Jannenga}}
-\rhead{Spring Lake, MI 49456 \\ jannengm@mail.gvsu.edu \\ (616)510-7880 \\ github.com/jannengm}
+\rhead{Jackson, MI 49201 \\ jannengm@mail.gvsu.edu \\ (616)510-7880 \\ github.com/jannengm}
 \renewcommand{\headrulewidth}{0.8pt}
 
 \begin{document}
@@ -41,12 +41,22 @@
 	\hfill				%Blank line after header
 
 	%Objective Section
-	\section*{Objective}
-	\begin{addmargin}[1em]{0em}
-		To obtain an ABAP Developer position at Consumers Energy
-	\end{addmargin}
+	%\section*{Objective}
+	%\begin{addmargin}[1em]{0em}
+	%	To obtain an ABAP Developer position at Consumers Energy
+	%\end{addmargin}
 
-	%Eduction Section
+  %Professional Summary Section
+  \section*{Summary}
+  \begin{itemize}
+    \itemsep-0.5em
+  	\item \textbf{Software developer with over one year of experience with C\# .Net and SAP ABAP}
+    \item Extensive experience with object oriented programming languages
+    \item Experience with AI and Robotic Process Automation
+    \item Graduated with honers from Grand Valley State University
+  \end{itemize}
+
+	%Education Section
 	\section*{Education}
 
 		\subsubsection{Grand Valley State University -- Allendale, MI -- Sept 2014 - Aug 2017}
@@ -60,35 +70,42 @@
 
 				Honors: Cum Laude
 
-				%\hspace{13mm}Dean's List -- Fall 2014 - Winter 2017
+				\hspace{13mm}Dean's List -- Sept 2014 - Aug 2017
 
 			\end{addmargin}
 
 	%Skills Section
 	\section*{Skills}
-	\begin{addmargin}[1em]{0em}
-		\textbf{Languages:} C, C++, Java, SQL, HTML, CSS, MIPS Assembly, Python, R, ABAP, C\#, ASP.NET, Powershell
+	\begin{addmargin}[0em]{0em}
+		\textbf{Languages:} C, C++, Java, SQL, HTML, CSS, MIPS Assembly, Python, R, ABAP, C\#, ASP.NET, Powershell,
 
-		\textbf{Software:} Git, Eclipse, IntelliJ, CLion, PyCharm, Visual Studio, Atom, Linux, Windows, SAP
+    \hspace{21mm}Blue Prism, \LaTeX
+
+		\textbf{Software:} \hspace{1.5mm} Git, Eclipse, IntelliJ, CLion, PyCharm, Visual Studio, Atom, Linux, Windows, SAP
 	\end{addmargin}
 
 	%Work Experience Section
 	\section*{Work Experience}
 
-		\subsubsection{Application Development Intern -- Consumers Energy -- Jackson, MI -- May 2017 - Present}
-			\begin{addmargin}[1em]{0em}
-				Supported the Application Development team at Consumers Energy. Developed new applications and modified existing applications in SAP/ABAP, C\# and ASP.NET, and Powershell scripting.
-			\end{addmargin}
+    \subsubsection{Software Developer -- Consumers Energy -- Jackson, MI -- May 2017 - Present}
+      \begin{addmargin}[1em]{0em}
+        Supported the Application Development team at Consumers Energy. Developed new applications and modified existing applications in SAP/ABAP, C\# MVC and ASP.NET, Powershell, Python, and Blue Prism.
+      \end{addmargin}
+
+		%\subsubsection{Application Development Intern -- Consumers Energy -- Jackson, MI -- May 2017 - Present}
+			%\begin{addmargin}[1em]{0em}
+			%	Supported the Application Development team at Consumers Energy. Developed new applications and modified existing applications in SAP/ABAP, C\# and ASP.NET, and Powershell scripting.
+			%\end{addmargin}
 
 		\subsubsection{Lab Assistant -- Grand Valley State University -- Allendale, MI -- Sept 2016 - Dec 2016}
 			\begin{addmargin}[1em]{0em}
 				Attended lab sections of a Computer Architecture class (CIS 451) at Grand Valley to assist students with labs and to answer questions. Graded papers and entered grades into Blackboard.
 			\end{addmargin}
 
-		\subsubsection{Delivery Driver -- Jet’s Pizza -- Grand Haven, MI -- May 2015 - Aug 2015}
-			\begin{addmargin}[1em]{0em}
-				Answered phones and took customer orders. Delivered pizzas to customers and handled cash and credit transactions. Cleaned store back.
-			\end{addmargin}
+		%\subsubsection{Delivery Driver -- Jet’s Pizza -- Grand Haven, MI -- May 2015 - Aug 2015}
+			%\begin{addmargin}[1em]{0em}
+				%Answered phones and took customer orders. Delivered pizzas to customers and handled cash and credit transactions. Cleaned store back.
+			%\end{addmargin}
 
 		\subsubsection{Data Entry Clerk -- Medallion Instrumentation Systems -- Spring Lake, MI -- May 2014 - Jan 2015}
 			\begin{addmargin}[1em]{0em}
@@ -100,21 +117,15 @@
 				Performed troubleshooting and repairs on Windows computers, including replacement of hardware, backup and restoration of data, and reformatting of hard drives. Disassembled and recycled outdated computers.
 			\end{addmargin}
 
-		\subsubsection{Delivery Driver -- Jimmy John's -- Ann Arbor, MI -- March 2011 - May 2013}
-			\begin{addmargin}[1em]{0em}
-				Answered phones and took customer orders. Delivered sandwiches to customers and handled cash and credit transactions. Cleaned store back and closed the store at night.
-			\end{addmargin}
+		%\subsubsection{Delivery Driver -- Jimmy John's -- Ann Arbor, MI -- March 2011 - May 2013}
+			%\begin{addmargin}[1em]{0em}
+			%	Answered phones and took customer orders. Delivered sandwiches to customers and handled cash and credit transactions. Cleaned store back and closed the store at night.
+			%\end{addmargin}
 
-		\subsubsection{Cashier/Stocker -- Orchard Market -- Spring Lake, MI -- Dec 2006 - Aug 2011}
-			\begin{addmargin}[1em]{0em}
-				Checked out customers and handled cash and credit transactions. Opened the store in the morning, cleaned the floors, and stocked shelves.
-			\end{addmargin}
-
-	%Selected Courses Section
-	\section*{Courses}
-		\begin{addmargin}[1em]{0em}
-			Computer Science I and II, Discrete Structures I and II, Computer Organization, Data Structures and Algorithms, Structure of Programming Languages, Intro to Software Engineering, Computer Architecture, Operating Systems Concepts, Database, System Programming, Data Communications, Data Mining, Artificial Intelligence
-		\end{addmargin}
+		%\subsubsection{Cashier/Stocker -- Orchard Market -- Spring Lake, MI -- Dec 2006 - Aug 2011}
+			%\begin{addmargin}[1em]{0em}
+			%	Checked out customers and handled cash and credit transactions. Opened the store in the morning, cleaned the floors, and stocked shelves.
+			%\end{addmargin}
 
 	%Selected Projects Section
 	\section*{Projects}
@@ -135,18 +146,39 @@
 
 		\subsubsection{Fiserv External Cash Desk}
 			\begin{addmargin}[1em]{0em}
-				Created a new ABAP program to handle reconciliation of payments posted on the Fiserv network and in SAP.
+				Created a new ABAP program for Consumers Energy to handle reconciliation of payments posted on the Fiserv network and in SAP.
 			\end{addmargin}
 
-		\subsubsection{Merit Processing System Enhancement}
+		%\subsubsection{Merit Processing System Enhancement}
+		%	\begin{addmargin}[1em]{0em}
+		%		Made requested changes to the existing Merit Processing System written in ASP.NET and C\#.
+		%	\end{addmargin}
+
+    \subsubsection{CYME Incremental Update Tool}
 			\begin{addmargin}[1em]{0em}
-				Made requested changes to the existing Merit Processing System written in ASP.NET and C\#.
+				Created and deployed a new application for Consumers Energy to interface with an ArcGIS database via REST services using MVC .Net and Kendo UI.
 			\end{addmargin}
 
 		\subsubsection{Visual Studio Team Services Migration}
 			\begin{addmargin}[1em]{0em}
-				Created several new powershell scripts to automate migration of Serena and Subversion code repositories to Git for use with Visual Studio Team Services.
+				Created several new Powershell scripts to automate migration of Serena and Subversion code repositories to Git for use with Visual Studio Team Services. Completed the migration of nearly 300 repositories to Git.
 			\end{addmargin}
+
+    \subsubsection{Robotic Process Automation Pilot}
+			\begin{addmargin}[1em]{0em}
+				Performed technical analysis and evaluation of two competing Robotic Process Automation (RPA) technologies, AssistEdge and Blue Prism, and delivered my analysis to senior leadership at Consumers Energy.
+			\end{addmargin}
+
+    \subsubsection{Sentiment Analysis Proof of Concept}
+			\begin{addmargin}[1em]{0em}
+				Performed independent research into machine learning as part of Consumers Energy's ``Focus 40" program, developed a proof of concept sentiment analysis bot for Twitter using Python, and demonstrated it to the Vice President of IT and other members of senior leadership.
+			\end{addmargin}
+
+    %Selected Courses Section
+  	\section*{Courses}
+  		\begin{addmargin}[1em]{0em}
+  			Computer Science I and II, Discrete Structures I and II, Computer Organization, Data Structures and Algorithms, Structure of Programming Languages, Intro to Software Engineering, Computer Architecture, Operating Systems Concepts, Database, System Programming, Data Communications, Data Mining, Artificial Intelligence
+  		\end{addmargin}
 
 	%General Skills section
 	% \section*{General Skills}
